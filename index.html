@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS  -->
+  <link rel="stylesheet" href="./style.css">
+  <title>Invoice</title>
+</head>
+
+<body>
+  <div class="invoice-box">
+    <div class="invoice_header">
+      <div class="deatils_dealers">
+        <div class="dealers_company">
+          <h2>[Company Name]<br>
+            [Your Company Slogan]</h2>
+            <br>
+            <br>
+        </div>
+        <h1 claas="dealers_invoice">
+          INVOICE
+        </h1>
+      </div>
+      <div class="deatils_dealers">
+        <div class="dealers_address">
+          <p>[Street Address]</p>
+          <p>[City, ST ZIP Code]</p>
+          <p>Phone: [Phone] Fax: [Fax]</p>
+          <br>
+          <br>
+        </div>
+        <div>
+          <p>Invoice #[100]</p>
+          <p>Date: [Date</p>
+        </div>
+      </div>
+      <div class="deatils_dealers">
+        <div class="dealers_address">
+          <strong>TO: </strong>
+          <p>[Recipient Name]]</p>
+          <p>[Company Name]</p>
+          <p>[Street Address]</p>
+          <p>[City, ST ZIP Code]</p>
+          <p>Phone: [Phone]</p>
+          <br>
+          <br>
+        </div>
+        <div claas="dealers_shippingAddress">
+          <strong>SHIP TO: </strong>
+          <p>[Recipient Name]]</p>
+          <p>[Company Name]</p>
+          <p>[Street Address]</p>
+          <p>[City, ST ZIP Code]</p>
+          <p>Phone: [Phone]</p>
+        </div>
+      </div>
+      <div class="dealers_comment">
+        <p>Comments or special instructions:
+        [To get started right away, just tap any placeholder text (such as this) and start typing to replace it with your own.]</p>
+      </div>
+    </div>
+    <!-- TABLE  -->
+    <table>
+      <tr>
+        <th>#</th>
+        <th>Description of Goods</th>
+        <th>Model</th>
+        <th>HSN/SAC</th>
+        <th>Quantity</th>
+        <th>Unit Cost</th>
+        <th>Total</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>E Rickshaw</td>
+        <td>LOADER HAVY -1000</td>
+        <td>87031090</td>
+        <td>1</td>
+        <td>130,250.00</td>
+        <td>130,250.00</td>
+      </tr>
+      <tr class="no-border">
+        <td colspan="6" class="right-align">Transporter Cost: (+)</td>
+        <td>0.00</td>
+      </tr>
+      <tr class="no-border">
+        <td colspan="6" class="right-align">Special Discount: (-)</td>
+        <td>4000.00</td>
+      </tr>
+      <tr class="no-border">
+        <td colspan="6" class="right-align">CGST: (-)</td>
+        <td>3156.25</td>
+      </tr>
+      <tr class="no-border">
+        <td colspan="6" class="right-align">SGST: (-)</td>
+        <td>3156.25</td>
+      </tr>
+      <tr class="no-border">
+        <td colspan="6" class="right-align">IGST: (+)</td>
+        <td>0.00</td>
+      </tr>
+      <tr class="no-border">
+        <td colspan="6" class="right-align">TCS Amount: @0.1% (+)</td>
+        <td>0.00</td>
+      </tr>
+      <tr>
+        <td colspan="5" class="bold right-align">Total</td>
+        <td class="bold">1 PCS</td>
+        <td class="bold">132,563</td>
+      </tr>
+    </table>
+    <p><strong>Amount In Words:</strong> Rupees One Lakh Thirty Two Thousands Five Hundred Sixty Three Only</p>
+    <div>
+      Make all checks payable to Pottery & Co.<br>
+      If you have any questions concerning this invoice, contact Suman at (123) 456-7890.<br>
+      <strong>THANK YOU FOR YOUR BUSINESS!</strong>
+    </div>
+  </div>
+</body>
+
+</html>
